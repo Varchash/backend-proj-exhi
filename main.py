@@ -82,7 +82,7 @@ app = FastAPI(
 # In production, replace "*" with your actual frontend domain.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://melodic-jalebi-310e6e.netlify.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
